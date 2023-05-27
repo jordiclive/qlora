@@ -45,7 +45,7 @@ logger = logging.getLogger(__name__)
 
 IGNORE_INDEX = -100
 DEFAULT_PAD_TOKEN = "[PAD]"
-
+#['down_proj', 'k_proj', 'q_proj', 'gate_proj', 'o_proj', 'up_proj', 'v_proj']
 
 @dataclass
 class ModelArguments:

@@ -1,5 +1,5 @@
 python qlora_get_modules.py \
-    --model_name_or_path decapoda-research/llama-7b-hf \
+    --model_name_or_path tiiuae/falcon-7b \
     --output_dir ./output \
     --dataset alpaca \
     --do_train True \
